@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+/assets/models/
+/assets/records/
+runs/
+*.pt
+*.pth
+*.safetensors
+
+# Keep local experiment inputs and generated outputs outside the source release.
+/data/
+/results/
+/local-assets/
+/training-bundle/
+/evaluation-bundle/
+/text_cache/
+/expert_cache/

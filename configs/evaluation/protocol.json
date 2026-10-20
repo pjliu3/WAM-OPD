@@ -1,0 +1,22 @@
+{
+  "schema": "wam_pwtr_robotwin_evaluation_v1",
+  "tasks": [
+    "move_stapler_pad",
+    "open_microwave"
+  ],
+  "conditions": [
+    "clean",
+    "randomized"
+  ],
+  "episodes_per_condition": 100,
+  "action_horizon": 32,
+  "execute_actions": 24,
+  "denoising_steps": 10,
+  "mixed_precision": "bf16",
+  "transition_noise_scale": 0.0,
+  "transition_noise_min_std": 0.0,
+  "action_seed": "environment_seed * 1000 + replan_index",
+  "instruction_rng_population": 50,
+  "expert_cache_required": true,
+  "text_cache_fallback": false
+}

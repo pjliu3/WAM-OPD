@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="32" viewBox="0 0 128 32" role="img" aria-label="MIT License">
+ <rect width="128" height="32" rx="6" fill="#2e7259"/>
+ <g fill="none" stroke="#eaf3ee" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l7 3v5c0 4-7 7-7 7s-7-3-7-7v-5zM15 16l3 3 5-6"/></g>
+ <text x="35" y="21" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#ffffff">MIT License</text>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "cap": 2.0,
+  "eta": 0.6666666666666666,
+  "evaluation_episodes": 0,
+  "normalization": "task_condition_q",
+  "prefix": "exclusive_selected_decisions",
+  "refresh": 24,
+  "resume": false,
+  "sampling": "floor(j*(T-1)/(min(16,T)-1))",
+  "seed": 0,
+  "short": "all_unique_no_padding",
+  "strength": 0.1,
+  "updates": 96,
+  "version": "sampled_pwtr_v1"
+}

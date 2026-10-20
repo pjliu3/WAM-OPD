@@ -1,0 +1,15 @@
+{
+  "package_version": "0.1.0rc6",
+  "method": "mixed_pool_sampled_prefix_PWTR",
+  "distribution": "code_only",
+  "status": "PASSED_CPU_AND_SOURCE_INTEGRITY",
+  "cpu_tests": 131,
+  "test_inputs": "synthetic fixtures",
+  "validation_scope": "CPU code tests and release-file integrity; local training and evaluation inputs are provided separately",
+  "original_data_included": false,
+  "recorded_evaluation_results_included": false,
+  "feature_cache_files_included": false,
+  "new_training_updates": 0,
+  "new_environment_episodes": 0,
+  "source_modules": 30
+}

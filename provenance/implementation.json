@@ -1,0 +1,204 @@
+{
+  "method": "mixed_pool_sampled_prefix_PWTR",
+  "package_version": "0.1.0rc6",
+  "external_fastwam_source_hashes": {
+    "configs/data/libero_2cam.yaml": "4d40ad0cd31337e0ccd04232c548a1a292bf3a0672644db781af4155bedb9b7d",
+    "configs/data/robotwin.yaml": "f1ba509fac21fc59d5a210d6f68bcf94640729ce00dce695b7ca6df24c7b5aa7",
+    "configs/model/fastwam.yaml": "ab3c2ffde9933e7576c747fecce82bd7d28c9c6478c1b53fcac02b3012be416c",
+    "configs/model/fastwam_idm.yaml": "e84d8299bf386564aec988afe8218fcebb1435d5fef8074b13fb5dd46afd142c",
+    "configs/model/fastwam_joint.yaml": "86686a36f3e29f7ec6218c37a84272e3f89b185fb3c17bbd8069a122f9d4e1f9",
+    "configs/sim_libero.yaml": "c5b60228495987739fd222d620e9a643d9d527d44e2e63c0832c403041931df3",
+    "configs/sim_robotwin.yaml": "13a97e41bfc6472b8db9b7932e87a8cc18647ccd48c2a39c16dd9a5bc79ddf16",
+    "configs/task/libero_idm_2cam224_1e-4.yaml": "5df6cf62843806b0d9d2fb48b873945865bbfa74d135c58032651d54d6992c4e",
+    "configs/task/libero_joint_2cam224_1e-4.yaml": "1c46f34058c9c5363bab6814a0b86eb13be3a0077e944db7d39cf151da07636e",
+    "configs/task/libero_uncond_2cam224_1e-4.yaml": "27bdc30545aa06bca81137690a241d469d5a67a433881976bd79da3d4171d1a0",
+    "configs/task/robotwin_articulated_tool_clean_action_lora_sft.yaml": "199d07dcef8c4d1ab76f767bcf395287e07c7d06d6191ab4835ae08eb0ceaad3",
+    "configs/task/robotwin_articulated_tool_clean_sft.yaml": "31d6817d06b25f1ba8916ac1b7eb4f7fd7ce27e3f0c772620d61e0e051abd7dd",
+    "configs/task/robotwin_idm_3cam_384_1e-4.yaml": "2e67c9f301105752962af825e57e5b46ef5e6ba4290e397e5efc7abb88652619",
+    "configs/task/robotwin_joint_3cam_384_1e-4.yaml": "daf4cb5246728ba60ae6903fbfd9d5e029d7172f30916b8143f81783450fa874",
+    "configs/task/robotwin_official_articulated_tool_full_sft_1e-6.yaml": "0e1089d3c5ffe0d97134e8737e558c44513378514fd3915b3995c2d59cde89f8",
+    "configs/task/robotwin_official_articulated_tool_joint_lora_sft.yaml": "e2bbe2cebd45d09449c8567034e02445967f10ccac86e3e985a14453c513eb60",
+    "configs/task/robotwin_official_articulated_tool_joint_lora_sft_fast.yaml": "11c1c27c104f5776d884ec2f8d14a007eaeb0c738e85e200770c62ec45d46f70",
+    "configs/task/robotwin_official_hanging_mug_moredata_full_sft_1e-6.yaml": "194c87267704b8eada6204cd525486ce7b35bafd4852bee60aa2a41ceac5d297",
+    "configs/task/robotwin_official_hanging_mug_uniform_full_sft_1e-6.yaml": "3d5c20d09bd2c73877a58fff92d14ea6fa67affaab7cf9b0cee9eef1962e826e",
+    "configs/task/robotwin_official_move_stapler_pad_moredata_full_sft_1e-6.yaml": "c6a5afd95cb975ac5ef06ea16a335447ed5dab471210a6c29739414658a28f89",
+    "configs/task/robotwin_official_move_stapler_pad_uniform_full_sft_1e-6.yaml": "82328df9313137d8dbd912a178238fa80bb291dd0503eccc16df6b2d12df3959",
+    "configs/task/robotwin_official_open_microwave_moredata_full_sft_1e-6.yaml": "b7a057bfe35ae93ef17f08a362a17d8a796ea9a254b52ef8c7918956265f171d",
+    "configs/task/robotwin_official_turn_switch_full_sft_1e-6.yaml": "28932e666759498b415efd2ef5e44243053c6d7c8338292017eedeaa73f36070",
+    "configs/task/robotwin_official_turn_switch_moredata_full_sft_1e-6.yaml": "30528aee6183102c36f666984edb821e79f1be9b981ffdd175adf4f9ccf05a07",
+    "configs/task/robotwin_official_turn_switch_phase_balanced_full_sft_1e-6.yaml": "55903edf1686b8e58ff0114b7ddf0437e1440724630b94fe5dab5c2a8ee08b5a",
+    "configs/task/robotwin_official_turn_switch_uniform_full_sft_1e-6.yaml": "2fa02d4e21f77d1d00e2a8a04564efa17001ff997d3864b71054eaaf3672f807",
+    "configs/task/robotwin_uncond_3cam_384_1e-4.yaml": "2f78a207415b452b05e0238f3e00eb9942d7960413076b5b3cdcf1ce09caef9f",
+    "configs/train.yaml": "42a60765bfdd842af01aacdde6066ce63be00698377fe7729110b795be684016",
+    "src/fastwam/__init__.py": "c4149c5ff0f9abd1517360daf761e692feb8570eb7a0caa2dfde52d4412c3e23",
+    "src/fastwam/datasets/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/fastwam/datasets/dataset_utils.py": "3bc17590049c7cb54061acf8d731b07892e7f530c5d7eeac2613fa77a285a392",
+    "src/fastwam/datasets/lerobot/base_lerobot_dataset.py": "f20a4e4674e9cc2f466effc3984967b207b4a4e2f8aeb02219db5f0290fe45ed",
+    "src/fastwam/datasets/lerobot/constants.py": "11ac9260341e1560c5eb0dd7acb79ed63c74180b8ab4113c27622ff213db417f",
+    "src/fastwam/datasets/lerobot/lerobot/datasets/compute_stats.py": "7d7daab219332b5abdfd5ec67ccaf3502e8eb583a17a4e482c3f3d4f7a691e89",
+    "src/fastwam/datasets/lerobot/lerobot/datasets/utils.py": "40f1b94e6ceb50765fb8dfa3d498887c2a0fc2eb49f09770c5f36190e7110c98",
+    "src/fastwam/datasets/lerobot/lerobot/datasets/video_utils.py": "cb647a1e955c3279e39ce8d7af7a37ea7432bbd71534c183f9ceebc8557dd89f",
+    "src/fastwam/datasets/lerobot/lerobot/lerobot_dataset.py": "6abe9eccf17077eee478805b574c25980cedf7a4f673a3dee1cb7184db9126f8",
+    "src/fastwam/datasets/lerobot/processors/base_processor.py": "1f47bc85fee11e3d16714b2f1e3a2dc874f4609a1706a788617156d34b48b58e",
+    "src/fastwam/datasets/lerobot/processors/fastwam_processor.py": "d71bd147c6594ee9d1a50c04d22fa69ccb914d601c4ad816233496f5b583fda5",
+    "src/fastwam/datasets/lerobot/robot_video_dataset.py": "74981f32ab1e38fe32db7387f9f34a71f299d45eedb2eb6773b02f8159094c37",
+    "src/fastwam/datasets/lerobot/transforms/action_state_merger.py": "669d6991415fc5eca44b32b129d15fee1e06e2f17d59d90350c252598033b427",
+    "src/fastwam/datasets/lerobot/transforms/image.py": "4d7ab61d0844918525244db653831f0f632730046b2714a6163ff57c441a16fa",
+    "src/fastwam/datasets/lerobot/transforms/misc.py": "8b505bd9e3a54ab2db7efcd64f0929d2e0303f5db1123de1074fd01fa9887e2b",
+    "src/fastwam/datasets/lerobot/transforms/relative_action.py": "e555e0558e948c4eea3d1119e274fa5d923af30862eec4380fb8528f4a319c47",
+    "src/fastwam/datasets/lerobot/transforms/rotation.py": "0de34b252d60b956cda07c0c19baebbd3c8a28916face700c6664c5815e11e91",
+    "src/fastwam/datasets/lerobot/utils/normalizer.py": "5ac89a646cd6395e98feaa832f8fdf7c7e00857080af3d9c15710e243c43ad43",
+    "src/fastwam/datasets/lerobot/utils/rotation.py": "6169162f98faf02a3fe5201e2b8a1069fe299840d036ee7cad8af5fa8f561542",
+    "src/fastwam/models/__init__.py": "ae4c5733f4bbf7caf31df2ae6f789516f6a10cd84a321f7d0375a7034253ac6d",
+    "src/fastwam/models/lora.py": "625083bccd7613cc85d0ab6739b40ef0d8e7eb2688302d603459a402531fd266",
+    "src/fastwam/models/wan22/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/fastwam/models/wan22/action_dit.py": "1301d9224149de43bb701f620a5d41858ecc63c6b19a573ec32edd45a3bdb0a2",
+    "src/fastwam/models/wan22/fastwam.py": "d2e7894d2c31e79ff20c548f2986abdfcec574e00c1c403c1493d9b90525c56c",
+    "src/fastwam/models/wan22/fastwam_idm.py": "aae332d17645a6744aafd85edde8e8d7dacbb8b110de3988015ca330146c3c65",
+    "src/fastwam/models/wan22/fastwam_joint.py": "35bf9bceba78b5c49b6655e5e103fce3566595fce31974a5da54a35ddc3a2ffb",
+    "src/fastwam/models/wan22/helpers/__init__.py": "f26116de229557a37a4812dc4ee75971f5f9e8b80240786ea4d0e5b0ff703cbf",
+    "src/fastwam/models/wan22/helpers/gradient.py": "ba5d8f7272eb029dc6cd2849ca99b70f6ad5abb838d21c818beb0590620dc793",
+    "src/fastwam/models/wan22/helpers/io.py": "1c6c1bc8a975b47092912833194fce25e2e3ac886fbab72d73af3ff5a00b3c62",
+    "src/fastwam/models/wan22/helpers/loader.py": "792f66bd0609c1365256aa24d43301340f81260c1651d89b04d2ae8224a08726",
+    "src/fastwam/models/wan22/helpers/state_dict_converters.py": "81d213373e5056a8d8bf31768b9b04164138ea78d0b306e316334841499f4bf9",
+    "src/fastwam/models/wan22/mot.py": "9f3f09cd73bf6e4547955336cb8a9055c5345f9dbabf06361ebf139b8d8accb5",
+    "src/fastwam/models/wan22/schedulers/scheduler_continuous.py": "2ececce284f7b9fe876965fbf5e11ca7b69caaf693979266b0f63062a589f181",
+    "src/fastwam/models/wan22/wan22.py": "b72998999b4b2c5096773092339b8ca81e9e7d96f398b81c57d3d22d14972ac4",
+    "src/fastwam/models/wan22/wan_video_dit.py": "d098ad77665feeefa81634f31f5bb1d5771c4556d1a67859135f0ed35f9eb6c2",
+    "src/fastwam/models/wan22/wan_video_text_encoder.py": "aedf7f131556a39b99a273deec3a85d67f41b5367cef41f310f33a807ae60a87",
+    "src/fastwam/models/wan22/wan_video_vae.py": "31b3fb9f844a76f5db5af4854e14802aae640b85b61d0de03a4b53b52515abb7",
+    "src/fastwam/runtime.py": "b226725785288e7eb7f85f59ef4fb5454e4c3c71575f7a069ee6c7cb8c3e9b87",
+    "src/fastwam/trainer.py": "b76e480aa545f8dbaa7be15b2e61cf2640725e2b000a0f1dda5234fbce790c69",
+    "src/fastwam/utils/__init__.py": "2893c05b99b17162941c70a41859c2808f8ae390be367a26cac7d5ab93ee197b",
+    "src/fastwam/utils/config_resolvers.py": "01c48cbd42b86e636b70ccc3e193a81147162ba890777102b2c61086fa415340",
+    "src/fastwam/utils/fs.py": "69e6df236b43360428a613686c8f37c531c0d16a3a2c5b06a725c46b49d657c5",
+    "src/fastwam/utils/logging_config.py": "cadc4f6ad487c3f37171a6defad36d23d9ab8bf262f73a461cd9ee9b03b757e7",
+    "src/fastwam/utils/misc.py": "05aa51247936a8d3faac27f90b78b65ff83a688259bed55d114b6a617ced532d",
+    "src/fastwam/utils/pytorch_utils.py": "ffc483e7fb435cd654326750eaffdbfc9243837c3140dcc74e45b24abb751a33",
+    "src/fastwam/utils/samplers.py": "2aab8389adf87a9aba628d9eabf31bd72c5655e80c2537cc342bf388de8536db",
+    "src/fastwam/utils/video_io.py": "9e9898b021a44e87aa1b4e6d13e3755a9869a2e27a7eb53c72a6802808d5bd80",
+    "src/fastwam/utils/video_metrics.py": "aaa37e458cc9e4bb79a17923b5ff5900c97b4309f7abd50db44cf76e9143ffd6"
+  },
+  "files": [
+    {
+      "path": "src/fastwam_opd/__init__.py",
+      "sha256": "a17432bd486bb907bb0203c3481e016a92870ba9c0e95ff55cf28749fdddc0c3"
+    },
+    {
+      "path": "src/fastwam_opd/fastwam_adapter.py",
+      "sha256": "f88799142fa64032fcdd92946e69d187c352d1caf29eecdf7c0de959667496a4"
+    },
+    {
+      "path": "src/fastwam_opd/history_scoring.py",
+      "sha256": "8dea353dcaaf26a5bf9a1fdcdc8f463f35b6d9870ebe071e0fea984de1b44f32"
+    },
+    {
+      "path": "src/fastwam_opd/loss.py",
+      "sha256": "9da23615afab4cf430df771b46d9dd3a71a2f7091dc93b2910e9f59c145d3313"
+    },
+    {
+      "path": "src/fastwam_opd/model_loader.py",
+      "sha256": "0677fff6b2cf9442fb6c44c0882a271b452453076d599da7d87acfd6d7039a81"
+    },
+    {
+      "path": "src/fastwam_opd/query.py",
+      "sha256": "2a51d396a54c6773ece54394708ad7e336ba16deaad37f7d19d75edf94f2f067"
+    },
+    {
+      "path": "src/fastwam_opd/record_io.py",
+      "sha256": "355ddf72760983b70d2a3cc7e081a7b9e75d1534286d7f36b7e1eca5951caa72"
+    },
+    {
+      "path": "src/fastwam_opd/records.py",
+      "sha256": "f500f9cbd2cf95a0ba8370317e5b23fdaf7c5335704c04cdee58e4af7e7c89ca"
+    },
+    {
+      "path": "src/wam_opd_v2/__init__.py",
+      "sha256": "988703d0a9f5a340e29f25daacb1aabe516452aef22620bd5188acf69b82fe03"
+    },
+    {
+      "path": "src/wam_opd_v2/checkpoint_state_gate.py",
+      "sha256": "3fe112f651eab8cb39605eab457af353c7d585fee2854818162d87fa60439bbf"
+    },
+    {
+      "path": "src/wam_opd_v2/fastwam_backend.py",
+      "sha256": "85a718c140c4f47dbf78f6527860340131901dc485967582b90eed4220e060b5"
+    },
+    {
+      "path": "src/wam_opd_v2/fresh_backend.py",
+      "sha256": "8e8f17509b8aad2b6160909c81a434f0f955063923bf8f0ab305b49fee061fb8"
+    },
+    {
+      "path": "src/wam_opd_v2/fresh_runtime.py",
+      "sha256": "923670bf8144eda66c3409c4901f3a8f18763d0b90bd988773057667faa77f61"
+    },
+    {
+      "path": "src/wam_opd_v2/performance_backend.py",
+      "sha256": "dc2154c99cc05e017ce8a397ee575aeea368c20b194dabed0d13d43ae0a93e1e"
+    },
+    {
+      "path": "src/wam_opd_v2/runtime.py",
+      "sha256": "19ebaaa9273abdc73b94e2d77e1638376d290c78c4009505344f944ad97c8ca1"
+    },
+    {
+      "path": "src/wam_opd_v2/weights.py",
+      "sha256": "120de941fe459a2df958153b78ac30f80f17f3e636cbe3cec22a1c205c4214f3"
+    },
+    {
+      "path": "src/wam_pwtr/__init__.py",
+      "sha256": "f02943a383f46d0aa5ea17087150e5efde91df6b8caa71514ccdc242e1037002"
+    },
+    {
+      "path": "src/wam_pwtr/cli.py",
+      "sha256": "8e50bc16bf629f2a5d1a40047e1d5a29abed63024fc7263b1f5c44a414e126ce"
+    },
+    {
+      "path": "src/wam_pwtr/core.py",
+      "sha256": "b9dd4d0130eabb2605eb210af748d97fbe3ebed26fb4a2f93c5b3cb1f8421c43"
+    },
+    {
+      "path": "src/wam_pwtr/evaluate.py",
+      "sha256": "ab8f503a5fcadd13260cd63c70aa9e0d5ab9e730586ac5672405e9de75aa6ec0"
+    },
+    {
+      "path": "src/wam_pwtr/evaluation_runtime/__init__.py",
+      "sha256": "08cdab52a1bc85e88759ef923a4a76a714306c7e8f40f56591deb2bd2f664df5"
+    },
+    {
+      "path": "src/wam_pwtr/evaluation_runtime/probe.py",
+      "sha256": "40ab7383e91e26119099a091100da0138ecbe2ee07b71fd4a00057a94c755f4c"
+    },
+    {
+      "path": "src/wam_pwtr/evaluation_runtime/runner.py",
+      "sha256": "760cda07d4595a819a0ad33b0314fa3be1a73736d0c63e4cfd68ac078eb1567e"
+    },
+    {
+      "path": "src/wam_pwtr/inference.py",
+      "sha256": "3256ac3e9e3eb084c2121924393f27045a5c33fea000a7c74c52e769c5b68af0"
+    },
+    {
+      "path": "src/wam_pwtr/io.py",
+      "sha256": "109307334157f47313887faf0f6454f4257d7fa11045a14da60995e58b2cd5d1"
+    },
+    {
+      "path": "src/wam_pwtr/robotwin_bridge.py",
+      "sha256": "8dae1f1008014476360ebe72d6a8332b2df341b189838d971e2ddba430c1780d"
+    },
+    {
+      "path": "src/wam_pwtr/robotwin_policy.py",
+      "sha256": "8eec603bef77db01b33929dc25601bb97ff97de37006c0adbd5e09f0e8996915"
+    },
+    {
+      "path": "src/wam_pwtr/robotwin_text.py",
+      "sha256": "af5c3dffffed9243741e52d7e409a475b7e7079da8d216c77b40992b0ca4448a"
+    },
+    {
+      "path": "src/wam_pwtr/runtime.py",
+      "sha256": "6dd11ea245d45aaf8427f37ac70516f686ff8b12effc3912945f6223dab566a2"
+    },
+    {
+      "path": "src/wam_pwtr/train.py",
+      "sha256": "17cac6b58efbbb71de0b6835324754e0067752eda1199a604d87f6553ec709bd"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "description": "Package metadata read from the existing training and evaluation environments; not a complete dependency lock.",
+  "environments": [
+    {
+      "role": "recorded_evaluation_environment",
+      "python": "3.11.14",
+      "packages": {
+        "torch": "2.7.1+cu128",
+        "numpy": "1.26.4",
+        "hydra-core": "1.3.2",
+        "omegaconf": "2.3.0",
+        "transformers": "4.49.0",
+        "diffusers": null,
+        "safetensors": "0.5.3",
+        "einops": "0.8.1",
+        "timm": null,
+        "torchvision": "0.22.1+cu128",
+        "sapien": "3.0.0b1",
+        "pytest": null
+      }
+    },
+    {
+      "role": "recorded_training_environment",
+      "python": "3.11.16",
+      "packages": {
+        "torch": "2.7.1",
+        "numpy": "1.26.4",
+        "hydra-core": "1.3.2",
+        "omegaconf": "2.3.0",
+        "transformers": "4.49.0",
+        "diffusers": null,
+        "safetensors": "0.5.3",
+        "einops": "0.8.1",
+        "timm": null,
+        "torchvision": "0.22.1",
+        "sapien": null,
+        "pytest": null
+      }
+    }
+  ]
+}

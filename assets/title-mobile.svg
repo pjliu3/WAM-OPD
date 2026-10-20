@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="252" viewBox="0 0 640 252" role="img" aria-labelledby="title description">
+  <title id="title">WAM-OPD</title>
+  <desc id="description">Sharpening World Action Models via On-Policy Distillation</desc>
+  <rect width="640" height="252" rx="8" fill="#f5f8f5"/>
+  <path d="M280 30h80" stroke="#a6c7b8" stroke-width="3"/>
+  <text x="320" y="123" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="700" letter-spacing="-3" fill="#233e35">WAM<tspan fill="#2e7259">-OPD</tspan></text>
+  <text x="320" y="177" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#43584e">Sharpening World Action Models</text>
+  <text x="320" y="218" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#43584e">via On-Policy Distillation</text>
+</svg>

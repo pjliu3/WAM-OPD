@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="32" viewBox="0 0 150 32" role="img" aria-label="Project preview">
+ <rect width="150" height="32" rx="6" fill="#2e7259"/>
+ <g fill="none" stroke="#eaf3ee" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><circle cx="19" cy="16" r="7"/><ellipse cx="19" cy="16" rx="3" ry="7"/><path d="M12 16h14"/></g>
+ <text x="35" y="21" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Project preview</text>
+</svg>
